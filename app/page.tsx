@@ -1,13 +1,8 @@
 "use client";
 
 import { signIn } from "next-auth/react";
-import {
-    Box,
-    Button,
-    Card,
-    CardContent,
-    Typography,
-} from "@mui/material";
+import {Box, Button, Card, CardContent, Typography,} from "@mui/material";
+
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 export default function Home() {
@@ -18,7 +13,7 @@ export default function Home() {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                bgcolor: "#f5f5f5",
+                bgcolor: "white",
             }}
         >
             <Card sx={{ width: 380, p: 2, borderRadius: 3, boxShadow: 4 }}>
@@ -38,8 +33,8 @@ export default function Home() {
                         startIcon={<GitHubIcon />}
                         onClick={() => signIn("github")}
                         sx={{
-                            backgroundColor: "#24292F",
-                            "&:hover": { backgroundColor: "#1a1d21" },
+                            backgroundColor: "black",
+                            "&:hover": { backgroundColor: "grey" },
                         }}
                     >
                         Sign in with GitHub

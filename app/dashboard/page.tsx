@@ -23,7 +23,7 @@ export default async function Dashboard() {
                 flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "center",
-                backgroundColor: "#fafafa",
+                backgroundColor: "white",
                 fontFamily: "sans-serif",
             }}
         >
